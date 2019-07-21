@@ -41,5 +41,24 @@ do_action( 'customify/site-end/after' );
 
 <?php wp_footer(); ?>
 
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+
+        var body = $( 'body' );
+
+        $('.gfield ').append('<hr class="form_separator">');
+
+        $('h3').each(function () {
+           var elemH3 = $(this);
+           elemH3.replaceWith('<h2 class="eael-contact-form-title eael-gravity-form-title h3">' + elemH3.text() + '</h2>');
+        });
+
+        var headings = $('.eael-gravity-form-title');
+
+        headings.prepend('<span class="dashicons dashicons-megaphone ico-custom"></span>');
+
+    });
+</script>
+
 </body>
 </html>
