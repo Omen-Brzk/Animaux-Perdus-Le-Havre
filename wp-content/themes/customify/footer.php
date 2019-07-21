@@ -46,6 +46,12 @@ do_action( 'customify/site-end/after' );
 
         var body = $( 'body' );
 
+
+            var siteTitle = $('#site-title').first();
+            siteTitle.replaceWith('<h1 class="site-title">' + siteTitle.text() + '</h1>')
+            $('h1').wrap('<a href="<?php echo esc_url( home_url( '/' ) ); ?>"></a>');
+
+
         $('.gfield ').append('<hr class="form_separator">');
 
         $('h3').each(function () {

@@ -138,9 +138,9 @@ class Customify_Builder_Item_Logo {
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 						</<?php echo $tag; /* WPCS: xss ok. */ ?>>
 					<?php else : ?>
-						<h1 class="site-title">
+						<p class="site-title" id="site-title">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-						</h1>
+						</p>
 						<?php
 					endif;
 				}
