@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-07-18 20:21:27+0000\n"
+"PO-Revision-Date: 2019-07-23 13:01:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,9 +11,9 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - Elementor Page Builder - Stable (latest release)\n"
 
-#: core/debug/classes/htaccess.php:26
-msgid " File path: %s"
-msgstr " Chemin du fichier : %s"
+#: core/debug/classes/htaccess.php:22
+msgid " File path: %s "
+msgstr " Chemin du fichier : %s "
 
 #: core/editor/editor.php:720
 msgid "Go Pro »"
@@ -39,7 +39,7 @@ msgstr "Elementor v2.6 inclut une mise à niveau de Font Awesome 4 vers 5. Pour 
 msgid "Before you enable SVG upload, note that SVG files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files."
 msgstr "Avant d’activer le téléversement de SVG, notez que les fichiers SVG comportent un risque de sécurité. Elementor exécute un processus pour supprimer les éventuels codes malveillants, mais il y a toujours un risque à utiliser ces fichiers."
 
-#: includes/managers/icons.php:298
+#: includes/managers/icons.php:354
 msgid "Please note that the upgrade process may cause some of the previously used Font Awesome 4 icons to look a bit different due to minor design changes made by Font Awesome."
 msgstr "Veuillez noter que le processus de mise à niveau peut provoquer un aspect légèrement différent de certaines icônes Font Awesome 4 utilisées précédemment en raison de modifications mineures apportées à la conception par Font Awesome."
 
@@ -83,23 +83,23 @@ msgstr "Choisir une vidéo"
 msgid "Icon Library"
 msgstr "Bibliothèque d’icônes"
 
-#: includes/managers/icons.php:357
+#: includes/managers/icons.php:413
 msgid "Font Awesome 5 Migration"
 msgstr "Migration Font Awesome 5"
 
-#: includes/managers/icons.php:327
+#: includes/managers/icons.php:383
 msgid "Hurray! The upgrade process to Font Awesome 5 was completed successfully."
 msgstr "Super ! La mise à niveau vers Font Awesome 5 s’est bien déroulée."
 
-#: includes/managers/icons.php:311
+#: includes/managers/icons.php:367
 msgid "Upgrade To Font Awesome 5"
 msgstr "Mettre à niveau vers Font Awesome 5"
 
-#: includes/managers/icons.php:300
+#: includes/managers/icons.php:356
 msgid "This action is not reversible and cannot be undone by rolling back to previous versions."
 msgstr "Cette action n’est pas réversible et ne peut pas être annulée en revenant aux versions précédentes."
 
-#: includes/managers/icons.php:295
+#: includes/managers/icons.php:351
 msgid "Access 1,500+ amazing Font Awesome 5 icons and enjoy faster performance and design flexibility."
 msgstr "Accédez à plus de 1 500 icônes Font Awesome 5 et bénéficiez de performances plus rapides et d’une flexibilité de conception."
 
@@ -143,10 +143,6 @@ msgstr "Toutes les icônes"
 msgid "Love using Elementor? <a href=\"%s\">Learn how you can build better sites with Elementor Pro.</a>"
 msgstr "Vous aimez utiliser Elementor ? <a href=\"%s\">Découvrez comment créer de meilleurs sites avec Elementor Pro.</a>"
 
-#: core/debug/classes/htaccess.php:19
-msgid "We failed to recognize your Server software. Please contact your hosting provider."
-msgstr "Nous n’avons pas réussi à reconnaître votre logiciel serveur. Veuillez contacter votre fournisseur d’hébergement."
-
 #: core/debug/classes/htaccess.php:9
 msgid "Your site's .htaccess file appears to be missing."
 msgstr "Le fichier .htaccess de votre site semble être manquant."
@@ -175,7 +171,7 @@ msgstr "Le modèle n’existe pas."
 msgid "The uploaded %s file is not supported. Please upload a valid svg file"
 msgstr "Le fichier %s téléversé n’est pas supporté. Veuillez téléverser un fichier SVG valide"
 
-#: includes/managers/icons.php:282
+#: includes/managers/icons.php:338
 msgid "Font Awesome 4 support script (shim.js) is a script that makes sure all previously selected Font Awesome 4 icons are displayed correctly while using Font Awesome 5 library."
 msgstr "Le script de support Font Awesome 4 (shim.js) est un script permettant de s’assurer que toutes les icônes Font Awesome 4 précédemment sélectionnées s’affichent correctement lors de l’utilisation de la bibliothèque Font Awesome 5."
 
@@ -187,20 +183,20 @@ msgstr "Jouer une unique fois"
 msgid "Upload SVG"
 msgstr "Téléverser un SVG"
 
-#: includes/managers/icons.php:356
+#: includes/managers/icons.php:412
 msgid "I acknowledge that some changes may affect my website and that this action cannot be undone."
 msgstr "Je reconnais que certaines modifications peuvent affecter mon site web et que cette action ne peut pas être annulée."
 
-#: includes/managers/icons.php:356
+#: includes/managers/icons.php:412
 msgid "I understand that by upgrading to Font Awesome 5,"
 msgstr "Je comprends qu’en mettant à niveau vers Font Awesome 5,"
 
-#: includes/managers/icons.php:296
+#: includes/managers/icons.php:352
 msgid "By upgrading, whenever you edit a page containing a Font Awesome 4 icon, Elementor will convert it to the new Font Awesome 5 icon."
 msgstr "En mettant à niveau, chaque fois que vous modifiez une page contenant une icône Font Awesome 4, Elementor la convertira en nouvelle icône Font Awesome 5."
 
-#: includes/managers/icons.php:289 includes/managers/icons.php:293
-#: includes/managers/icons.php:305
+#: includes/managers/icons.php:345 includes/managers/icons.php:349
+#: includes/managers/icons.php:361
 msgid "Font Awesome Upgrade"
 msgstr "Mise à niveau Font Awesome"
 
@@ -225,7 +221,7 @@ msgstr "Les fichiers SVG ne sont pas autorisés pour des raisons de sécurité"
 msgid "Elementor will try to sanitize the SVG files, removing potential malicious code and scripts."
 msgstr "Elementor va essayer de nettoyer les fichiers SVG, de supprimer le code et les scripts malveillants potentiels."
 
-#: includes/managers/icons.php:274
+#: includes/managers/icons.php:330
 msgid "Load Font Awesome 4 Support"
 msgstr "Charger le support de Font Awesome 4"
 
@@ -826,7 +822,7 @@ msgstr "Dailymotion"
 msgid "Source"
 msgstr "Source"
 
-#: includes/widgets/button.php:255
+#: includes/widgets/button.php:252
 msgid "Button ID"
 msgstr "ID du bouton"
 
@@ -899,7 +895,7 @@ msgstr "J’ai compris"
 msgid "Self Hosted"
 msgstr "Auto-hébergée"
 
-#: includes/widgets/button.php:263
+#: includes/widgets/button.php:260
 msgid "Please make sure the ID is unique and not used elsewhere on the page this form is displayed. This field allows <code>A-z 0-9</code> & underscore chars without spaces."
 msgstr "Veuillez vous assurer que l’ID est unique et non utilisé ailleurs sur la page où ce formulaire est affiché. Ce champs autorise les caractères <code>A-z 0-9</code> et tiret bas sans espace."
 
@@ -2165,7 +2161,7 @@ msgstr "Largeur de navigation"
 #: includes/elements/section.php:535 includes/elements/section.php:660
 #: includes/elements/section.php:777 includes/elements/column.php:269
 #: includes/elements/column.php:394 includes/elements/column.php:512
-#: includes/widgets/button.php:337 includes/widgets/google-maps.php:199
+#: includes/widgets/button.php:334 includes/widgets/google-maps.php:199
 #: includes/widgets/icon-box.php:300 includes/widgets/icon.php:247
 #: includes/widgets/common.php:225 includes/widgets/common.php:309
 #: includes/widgets/image-box.php:336 includes/widgets/icon-list.php:399
@@ -2174,7 +2170,7 @@ msgid "Hover"
 msgstr "Au survol"
 
 #: includes/elements/section.php:1163 includes/elements/column.php:740
-#: includes/widgets/button.php:261 includes/widgets/common.php:119
+#: includes/widgets/button.php:258 includes/widgets/common.php:119
 msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
 msgstr "Ajouter votre id personnalisé sans la touche carré. par exemple : mon-id"
 
@@ -2705,7 +2701,7 @@ msgstr "Pour modifier le code source de votre thème, nous vous recommandons d�
 msgid "Learn More"
 msgstr "En savoir plus"
 
-#: includes/widgets/button.php:381 includes/widgets/icon-box.php:336
+#: includes/widgets/button.php:378 includes/widgets/icon-box.php:336
 #: includes/widgets/icon.php:285 includes/widgets/image-box.php:273
 #: includes/widgets/social-icons.php:501 includes/widgets/image.php:407
 msgid "Hover Animation"
@@ -3259,7 +3255,7 @@ msgid "Typography"
 msgstr "Typographie"
 
 #: includes/elements/section.php:1041 includes/elements/column.php:624
-#: includes/widgets/button.php:308 includes/widgets/button.php:344
+#: includes/widgets/button.php:305 includes/widgets/button.php:341
 #: includes/widgets/alert.php:213 includes/widgets/alert.php:243
 #: includes/widgets/text-editor.php:171 includes/widgets/image-gallery.php:326
 #: includes/widgets/progress.php:268 includes/widgets/heading.php:222
@@ -3288,7 +3284,7 @@ msgid "WordPress"
 msgstr "WordPress"
 
 #: core/editor/editor.php:633 includes/controls/switcher.php:75
-#: includes/managers/icons.php:280 includes/widgets/audio.php:126
+#: includes/managers/icons.php:336 includes/widgets/audio.php:126
 #: includes/widgets/image-gallery.php:161
 #: includes/widgets/image-carousel.php:164
 #: includes/widgets/image-carousel.php:220
@@ -3299,7 +3295,7 @@ msgid "Yes"
 msgstr "Oui"
 
 #: core/editor/editor.php:620 includes/controls/switcher.php:74
-#: includes/managers/icons.php:279 includes/widgets/audio.php:127
+#: includes/managers/icons.php:335 includes/widgets/audio.php:127
 #: includes/widgets/image-gallery.php:162
 #: includes/widgets/image-carousel.php:163
 #: includes/widgets/image-carousel.php:221
@@ -3360,7 +3356,7 @@ msgstr "Transformation"
 msgid "Link"
 msgstr "Lien"
 
-#: includes/widgets/button.php:246 includes/widgets/alert.php:145
+#: includes/widgets/button.php:243 includes/widgets/alert.php:145
 #: includes/widgets/google-maps.php:163 includes/widgets/audio.php:251
 #: includes/widgets/icon-box.php:105 includes/widgets/icon.php:121
 #: includes/widgets/text-editor.php:254 includes/widgets/spacer.php:128
@@ -3870,7 +3866,7 @@ msgid "Small"
 msgstr "Petit"
 
 #: includes/widgets/button.php:43 includes/widgets/button.php:109
-#: includes/widgets/button.php:274
+#: includes/widgets/button.php:271
 msgid "Button"
 msgstr "Bouton"
 
@@ -4010,7 +4006,7 @@ msgstr "Espacement des lettres"
 #: includes/elements/section.php:1213 includes/elements/column.php:252
 #: includes/elements/column.php:323 includes/elements/column.php:372
 #: includes/elements/column.php:475 includes/elements/column.php:810
-#: includes/widgets/button.php:301 includes/widgets/google-maps.php:183
+#: includes/widgets/button.php:298 includes/widgets/google-maps.php:183
 #: includes/widgets/icon-box.php:258 includes/widgets/icon.php:203
 #: includes/widgets/common.php:167 includes/widgets/common.php:208
 #: includes/widgets/common.php:272 includes/widgets/image-box.php:282
@@ -4105,7 +4101,7 @@ msgstr "Diapositives à afficher"
 
 #: includes/elements/section.php:756 includes/elements/section.php:792
 #: includes/elements/column.php:490 includes/elements/column.php:527
-#: includes/widgets/button.php:402 includes/widgets/icon-box.php:437
+#: includes/widgets/button.php:399 includes/widgets/icon-box.php:437
 #: includes/widgets/icon.php:363 includes/widgets/text-editor.php:348
 #: includes/widgets/image-gallery.php:255 includes/widgets/common.php:287
 #: includes/widgets/common.php:324 includes/widgets/social-icons.php:433
@@ -4164,7 +4160,7 @@ msgid "Layout"
 msgstr "Mise en page"
 
 #: core/document-types/post.php:163 includes/elements/section.php:1132
-#: includes/elements/column.php:709 includes/widgets/button.php:422
+#: includes/elements/column.php:709 includes/widgets/button.php:419
 #: includes/widgets/icon-box.php:388 includes/widgets/icon.php:314
 #: includes/widgets/common.php:87 includes/widgets/social-icons.php:379
 #: includes/widgets/accordion.php:298 includes/widgets/accordion.php:431
@@ -4399,8 +4395,8 @@ msgstr "Masquer sur tablette"
 msgid "Hide On Desktop"
 msgstr "Masquer sur ordinateur"
 
-#: core/settings/general/model.php:154 includes/widgets/button.php:320
-#: includes/widgets/button.php:356 includes/widgets/alert.php:164
+#: core/settings/general/model.php:154 includes/widgets/button.php:317
+#: includes/widgets/button.php:353 includes/widgets/alert.php:164
 #: includes/widgets/progress.php:193 includes/widgets/video.php:681
 #: includes/widgets/image.php:510 includes/widgets/tabs.php:225
 msgid "Background Color"
@@ -4456,7 +4452,7 @@ msgstr "Titre & description"
 msgid "Active Color"
 msgstr "Couleur active"
 
-#: includes/widgets/button.php:367 includes/widgets/alert.php:175
+#: includes/widgets/button.php:364 includes/widgets/alert.php:175
 #: includes/widgets/social-icons.php:486 includes/widgets/accordion.php:225
 #: includes/widgets/tabs.php:214 includes/widgets/toggle.php:221
 msgid "Border Color"

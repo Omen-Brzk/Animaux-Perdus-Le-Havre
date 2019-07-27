@@ -42,21 +42,21 @@ do_action( 'customify/site-end/after' );
 <?php wp_footer(); ?>
 
 <script type="text/javascript">
+
     jQuery(document).ready(function($){
 
         var body = $( 'body' );
 
-
-            var siteTitle = $('#site-title').first();
-            siteTitle.replaceWith('<h1 class="site-title">' + siteTitle.text() + '</h1>')
-            $('h1').wrap('<a href="<?php echo esc_url( home_url( '/' ) ); ?>"></a>');
+        var siteTitle = $('#site-title').first();
+        siteTitle.replaceWith('<h1 class="site-title">' + siteTitle.text() + '</h1>');
+        $('.site-title').wrap('<a href="<?php echo esc_url( home_url( '/' ) ); ?>"></a>');
 
 
         $('.gfield ').append('<hr class="form_separator">');
 
-        $('h3').each(function () {
-           var elemH3 = $(this);
-           elemH3.replaceWith('<h2 class="eael-contact-form-title eael-gravity-form-title h3">' + elemH3.text() + '</h2>');
+        $('h3.eael-contact-form-title').each(function () {
+            var elemH3 = $(this);
+            elemH3.replaceWith('<h2 class="eael-contact-form-title eael-gravity-form-title h3">' + elemH3.text() + '</h2>');
         });
 
         var headings = $('.eael-gravity-form-title');
