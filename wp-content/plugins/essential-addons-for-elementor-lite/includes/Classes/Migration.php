@@ -60,11 +60,8 @@ class Migration
      */
     public function migrator() {
         // set current version to db
-        if(get_option('eael_version') != EAEL_PLUGIN_VERSION) {
+        if(get_option('eael_version') == false) {
             update_option('eael_version', EAEL_PLUGIN_VERSION);
-
-            // tricky updates here...
         }
-
     }
 }

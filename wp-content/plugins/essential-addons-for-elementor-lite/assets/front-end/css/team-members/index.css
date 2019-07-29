@@ -97,10 +97,13 @@
   padding-top: 15%;
   opacity: 0;
   overflow: hidden;
-  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
   position: absolute;
   right: 10px;
   top: 10px;
+  -webkit-transition: all 0.615s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  -o-transition: all 0.615s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   transition: all 0.615s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
 
@@ -110,6 +113,8 @@
 
 .eael-team-member-social-link > a {
   display: inline-block;
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  -o-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
 

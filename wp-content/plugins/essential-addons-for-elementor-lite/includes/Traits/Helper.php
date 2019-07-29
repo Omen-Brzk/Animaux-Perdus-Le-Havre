@@ -1013,7 +1013,7 @@ trait Helper
      *
      * @return array
      */
-    public function eael_post_type_categories(string $type = 'term_id')
+    public function eael_post_type_categories()
     {
         $terms = get_terms(array(
             'taxonomy' => 'category',
@@ -1022,7 +1022,7 @@ trait Helper
 
         if (!empty($terms) && !is_wp_error($terms)) {
             foreach ($terms as $term) {
-                $options[$term->{$type}] = $term->name;
+                $options[$term->term_id] = $term->name;
             }
         }
 
