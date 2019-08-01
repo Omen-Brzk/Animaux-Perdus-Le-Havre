@@ -21,6 +21,11 @@ Le code source est **ouvert** : Libre à vous de le reprendre et à l'adapter à
 
 > **La base de données est disponible [Ici](https://openload.cc/e7K1Pd1fnc/animaux-perdus-master_sql)**
 
+> Les identifiants sont les suivants, libre à vous de les modifier :)
+
+> **User : AIKnEgnTSRbrXcBwyGihJF**
+> || **Pwd : -9)8m&MeL{P*RT**
+
 Ce projet n'est pas "novateur", puisque le concept existe déjà, mais j'ai travaillé dur pour développer un site utile, facile et rapide à utiliser pour les personnes du Havre dans le besoin !
 ## Contexte
 
